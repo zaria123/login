@@ -21,8 +21,8 @@ function check() {
 
     // check if stored data from register-form is equal to data from login form
     if(userName.value !== storedName || userPw.value !== storedPw) {
-        alert('ERROR');
+        alert('ERROR! This username is already taken.');
     }else {
-        alert('You are loged in.');
+        alert('You are logged in.');
     }
 }
